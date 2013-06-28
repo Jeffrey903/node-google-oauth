@@ -1,12 +1,9 @@
 {
-  "name": "google-oauth",
+  "name": "node-google-oauth",
   "version": "0.0.1",
   "description": "simple functions for doing oauth login with google",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "",
+  "repository": "git://github.com:fraserxu/node-google-oauth.git",
   "dependencies": {
     "request": "2.21.1"
   },
@@ -14,6 +11,9 @@
     "google",
     "oauth"
   ],
-  "author": "fraserxu xvfeng123@gmail.com",
+  "author": {
+    "name": "fraserxu",
+    "email": "xvfeng123@gmail.com"
+  },
   "license": "BSD"
 }
