@@ -1,0 +1,19 @@
+{
+  "name": "google-oauth",
+  "version": "0.0.1",
+  "description": "simple functions for doing oauth login with google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "dependencies": {
+    "request": "2.21.1"
+  },
+  "keywords": [
+    "google",
+    "oauth"
+  ],
+  "author": "fraserxu xvfeng123@gmail.com",
+  "license": "BSD"
+}
