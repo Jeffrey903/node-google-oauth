@@ -30,7 +30,7 @@ module.exports = function(opts) {
     function login(req, resp) {
         var u = 'https://accounts.google.com/o/oauth2/auth?'
             + 'client_id=' + opts.googleClient
-            + '&scope' + opts.scope
+            + '&scope=' + opts.scope
             + '&redirect_uri=' + redirectURI
             + '&response_type=code'
             + '&approval_prompt=force&access_type=offline'
