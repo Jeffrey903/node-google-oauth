@@ -32,7 +32,7 @@ module.exports = function(opts) {
             + 'client_id=' + opts.googleClient
             + '&scope' + opts.scope
             + '&redirect_uri=' + redirectURI
-            + '&response_type=cdoe'
+            + '&response_type=code'
             + '&approval_prompt=force&access_type=offline'
             + '&state=' + state;
         resp.statusCode = 302;
