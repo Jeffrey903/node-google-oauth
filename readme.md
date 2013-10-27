@@ -1,6 +1,6 @@
 # google-oauth
 
-Highly inspired by [github-oauth](https://google.com/maxogden/github-oauth)
+Highly inspired by [github-oauth](https://github.com/maxogden/github-oauth)
 
 Simple functions for doing oauth login with Google. Compatible with any node http server that uses handler callbacks that look like `function(req, res) {}`
 
